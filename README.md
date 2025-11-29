@@ -1,57 +1,75 @@
-📘 JavaScript Console Quiz Game (HTML + JS Version)
-This project is a simple JavaScript quiz game that runs using prompt() and alert(), but is triggered through an HTML button instead of starting automatically. It demonstrates the use of core JavaScript concepts such as arrays, loops, conditionals, functions, input handling, and external JS linking.
+📘 JavaScript Console Quiz Game
+
+This project is a simple interactive quiz built with HTML and JavaScript. The quiz runs through browser prompt() and alert() dialogs, and it only starts when the user clicks a Start Quiz button on the webpage.
+It showcases fundamental JavaScript concepts such as arrays, loops, functions, conditionals, and external script linking.
 
 🚀 Features
-Quiz runs inside browser prompts and alerts
 
-Triggered by clicking a Start Quiz button in index.html
+Quiz runs inside browser pop-up prompts and alerts
 
-Case-insensitive and space-trimmed input checking
+Starts only when the Start Quiz button is clicked
 
-Score tracking throughout the quiz
+Answers are checked in a case-insensitive and trimmed manner
 
-Clean separation of HTML and JavaScript (external JS file)
+Real-time feedback after each question
 
-Organized data using an array of question–answer objects
+Total score displayed at the end
+
+Neat separation of HTML and JS logic using an external file
+
+Uses an organized array of objects for questions and answers
 
 📂 Project Structure
-Quiz-Game/ │ ├── index.html # Contains the Start Quiz button and links the JS file ├── script.js # Contains the quiz logic └── README.md # Documentation
+Quiz-Game/
+│
+├── index.html     # UI with Start Quiz button (links to JS)
+├── script.js       # Main quiz logic
+└── README.md       # Project documentation
 
-📝 How to Run the Project
-Open index.html in any browser
+📝 How to Run
+
+Open index.html in any web browser
 
 Click the Start Quiz button
 
-Answer each question in the pop-up prompt
+Answer the questions shown in the prompts
 
-Receive instant feedback after every answer
+Receive immediate feedback after each response
 
-View your final score in a final alert box
+View your final score in a summary alert
 
-🎯 Learning Objectives
-By building this project, you practice:
+🎯 What You Learn
 
-Using arrays to store multiple questions
+By working on this project, you practice and understand:
 
-Using objects for structured question–answer pairs
+Storing multiple questions using arrays
 
-Implementing a for loop to run sequential questions
+Using objects to pair questions with answers
 
-Writing a function (runQuiz) to organize logic
+Looping through questions with a for loop
 
-Taking user input with prompt()
+Organizing code using a function (runQuiz)
 
-Outputting results via alert()
+Handling user input using prompt()
 
-Normalizing strings using:
+Displaying output using alert()
+
+Normalizing text with:
 
 toLowerCase()
 
 trim()
 
-Using conditionals (if-else) to check correctness
+Checking correctness using if–else conditions
 
-Connecting JavaScript to HTML using <script src="">
+toLowerCase()
 
-💡 Author
-Sameer Mishra
+trim()
+
+Checking correctness using if–else conditions
+
+
+
+Author:-
+
+Ayush Kumar
